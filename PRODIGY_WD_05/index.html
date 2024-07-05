@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <span>
+        <img src="./weathericon.png">
+              <h1>WEATHER APP</h1>
+        </span>
+        <span class="fetch">
+
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="btn">fetch</button>
+        </span>
+        <div class="city-name">
+            <h1><span id="cityName"></span>,in</h1>
+        </div>
+        <div class="wether">
+            
+        <div class="temp">
+            <h2>Temperature: <span id="temperature"></span>°C</h2>
+            <h2>Feels like: <span id="feels_like"></span>°C</h2>
+            <h2>Cloud Ceiling:<span id="cloudCeiling"></span></h2>
+            <h2>Location:<span id="loc"></span></h2>
+        </div>
+        <div class="section">
+            <h2>The Cloud cover: <span id="cloudCover"></span></h2>
+        <div class="humidity"> 
+            <h2>Humidity: <span id="humidity"></span></h2>
+        </div> 
+        <div class="wind">
+            <h2>Wind Speed: <span id="windSpeed"></span></h2>
+            <h2>Dew point: <span id="dewPoint"></span></h2>
+        </div>
+        <div class="sun">
+            <h2>Visibility: <span id="visibility"></span></h2>
+            <h2>Rain Intensity: <span id="rainIntensity"></span></h2>
+        </div>
+    </div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
